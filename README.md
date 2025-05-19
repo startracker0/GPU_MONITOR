@@ -9,10 +9,10 @@ This script is mainly used to check whether the `training is completed` and whet
 
 
 ## 1. GPU 监控设置(GPU Monitoring Settings)
-- 本脚本支持通过 `gpu_id` 监控指定GPU显存
-- This script supports monitoring a specified GPU via `GPU ID`
+- 本脚本支持通过 `gpu_id` 监控指定GPU显，`threshold`是预设的显存阈值，默认为10MiB，`check_interval`为检测时间间隔，默认为300s。
+- This script supports monitoring the VRAM of a specified GPU through the gpu_id. The `threshold` is the preset video memory threshold, with a default value of 10 MiB. `check_interval` is the detection time interval, with a default value of 300 seconds.
   
-https://github.com/startracker0/GPU_MONITOR/blob/7b2ce5dc82628e60fe8c771739732847fe5a75dd/monitor.py#L129-L132
+https://github.com/startracker0/GPU_MONITOR/blob/7b2ce5dc82628e60fe8c771739732847fe5a75dd/monitor.py#L128-L129
 
 ---
 
