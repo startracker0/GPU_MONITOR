@@ -108,5 +108,5 @@ def monitor_gpu(threshold=0.0002, check_interval=300):
         time.sleep(check_interval)
 
 if __name__ == "__main__":
-    # 启动GPU监控，5%阈值，每5分钟检查一次
+    # 启动GPU监控，0.0002阈值，每5分钟检查一次
     monitor_gpu(threshold=0.0002, check_interval=300)
