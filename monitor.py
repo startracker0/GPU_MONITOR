@@ -129,4 +129,4 @@ if __name__ == "__main__":
     gpu_to_monitor = [0]  # 修改为您需要监控的GPU ID列表
     
     # 启动GPU监控，只监控指定的GPU, 此处的阈值为10MB
-    monitor_gpu(threshold=10, check_interval=5, gpu_ids=gpu_to_monitor)
+    monitor_gpu(threshold=10, check_interval=300, gpu_ids=gpu_to_monitor)
