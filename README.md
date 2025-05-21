@@ -32,3 +32,7 @@ https://github.com/startracker0/GPU_MONITOR/blob/5c82370c6a80983f0fc4472eae3e138
 
 [Reference Blog](https://blog.csdn.net/qq_42076902/article/details/131900459)
 
+## 4. 运行(Run)
+``
+ nohup python monitor.py >monitor.log 2>&1&
+ ``
